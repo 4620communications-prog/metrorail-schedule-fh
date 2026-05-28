@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="60">
+<style>
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+}
+
+.wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+iframe {
+    position: absolute;
+
+    /* Move page upward */
+    top: -320px;
+
+    /* Move slightly left to remove side map */
+    left: -10px;
+
+    /* Enlarge slightly */
+    width: 1400px;
+    height: 1600px;
+
+    border: none;
+}
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+<iframe
+src="https://www.wmata.com/ridertools/us-en/station/friendship-heights">
+</iframe>
+</div>
+</body>
+</html>
